@@ -31,6 +31,7 @@ const filterData = [
       "Backend",
       "Mobile",
       "Desktop",
+      "UI/UX"
     ],
   },
   {
