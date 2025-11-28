@@ -32,7 +32,7 @@ const Login = () => {
     try {
       dispatch(setLoading(true));
 
-      const res = await axios.post(`${USER_API_ENDPOINT}/login`, input, {
+      const res = await axios.post(`https://job-backend-7iww.onrender.com/api/user/login`, input, {
         headers: { "Content-Type": "application/json" },
         withCredentials: true,
       });

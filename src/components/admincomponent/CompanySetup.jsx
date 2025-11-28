@@ -56,7 +56,7 @@ const CompanySetup = () => {
       setLoading(true);
 
       const res = await axios.put(
-        `${COMPANY_API_ENDPOINT}/update/${params.id}`,
+        `https://job-backend-7iww.onrender.com/api/company/update/${params.id}`,
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },

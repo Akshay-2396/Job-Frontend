@@ -25,7 +25,7 @@ const CompanyCreate = () => {
 
     try {
       const res = await axios.post(
-        `${COMPANY_API_ENDPOINT}/register`,
+        `https://job-backend-7iww.onrender.com/api/company/register`,
         { companyName },
         {
           headers: { "Content-Type": "application/json" },
